@@ -5,26 +5,26 @@ type BotProps = {
 }
 
 export const init = (props: BotProps) => {
-    const element = document.createElement('flowise-chatbot')
+    const element = document.createElement('mavchat')
     Object.assign(element, props)
     document.body.appendChild(element)
 }
 
-type Chatbot = {
+type MavChat = {
     init: typeof init
 }
 
 declare const window:
     | {
-          Chatbot: Chatbot | undefined
+          MavChat: MavChat | undefined
       }
     | undefined
 
-export const parseChatbot = () => ({
+export const parseMavChat = () => ({
     init
 })
 
-export const injectChatbotInWindow = (bot: Chatbot) => {
+export const injectMavChatInWindow = (bot: MavChat) => {
     if (typeof window === 'undefined') return
-    window.Chatbot = { ...bot }
+    window.MavChat = { ...bot }
 }

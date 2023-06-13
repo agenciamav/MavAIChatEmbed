@@ -4,27 +4,27 @@
 
 
 :host {
-    --chatbot-container-bg-image: none;
-    --chatbot-container-bg-color: transparent;
-    --chatbot-container-font-family: 'Open Sans';
+    --mavchat-container-bg-image: none;
+    --mavchat-container-bg-color: transparent;
+    --mavchat-container-font-family: 'Open Sans';
   
-    --chatbot-button-bg-color: #0042da;
-    --chatbot-button-color: #ffffff;
+    --mavchat-button-bg-color: #0042da;
+    --mavchat-button-color: #ffffff;
   
-    --chatbot-host-bubble-bg-color: #f7f8ff;
-    --chatbot-host-bubble-color: #303235;
+    --mavchat-host-bubble-bg-color: #f7f8ff;
+    --mavchat-host-bubble-color: #303235;
   
-    --chatbot-guest-bubble-bg-color: #3B81F6;
-    --chatbot-guest-bubble-color: #ffffff;
+    --mavchat-guest-bubble-bg-color: #3B81F6;
+    --mavchat-guest-bubble-color: #ffffff;
   
-    --chatbot-input-bg-color: #ffffff;
-    --chatbot-input-color: #303235;
-    --chatbot-input-placeholder-color: #9095a0;
+    --mavchat-input-bg-color: #ffffff;
+    --mavchat-input-color: #303235;
+    --mavchat-input-placeholder-color: #9095a0;
   
-    --chatbot-header-bg-color: #ffffff;
-    --chatbot-header-color: #303235;
+    --mavchat-header-bg-color: #ffffff;
+    --mavchat-header-color: #303235;
   
-    --chatbot-border-radius: 6px;
+    --mavchat-border-radius: 6px;
   
     /* Phone input */
     --PhoneInputCountryFlag-borderColor: transparent;
@@ -80,7 +80,7 @@
   .bubble1,
   .bubble2,
   .bubble3 {
-    background-color: var(--chatbot-host-bubble-color);
+    background-color: var(--mavchat-host-bubble-color);
     opacity: 0.5;
   }
   
@@ -149,66 +149,66 @@
     opacity: 1 !important;
   }
   
-  .chatbot-container {
-    background-image: var(--chatbot-container-bg-image);
-    background-color: var(--chatbot-container-bg-color);
+  .mavchat-container {
+    background-image: var(--mavchat-container-bg-image);
+    background-color: var(--mavchat-container-bg-color);
     font-family: 'Open Sans', -apple-system,
       BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
       'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   }
   
-  .chatbot-button {
-    color: var(--chatbot-button-color);
+  .mavchat-button {
+    color: var(--mavchat-button-color);
     background-color: #0042da;
     border: 1px solid #0042da;
-    border-radius: var(--chatbot-border-radius);
+    border-radius: var(--mavchat-border-radius);
   }
   
-  .chatbot-button.selectable {
-    color: var(--chatbot-host-bubble-color);
+  .mavchat-button.selectable {
+    color: var(--mavchat-host-bubble-color);
     background-color: #f7f8ff;
     border: 1px solid #0042da;
   }
   
-  .chatbot-host-bubble {
-    color: var(--chatbot-host-bubble-color);
+  .mavchat-host-bubble {
+    color: var(--mavchat-host-bubble-color);
     background-color: #f7f8ff;
   }
   
-  .chatbot-host-bubble > .bubble-typing {
+  .mavchat-host-bubble > .bubble-typing {
     background-color: #f7f8ff;
-    border: var(--chatbot-host-bubble-border);
+    border: var(--mavchat-host-bubble-border);
     border-radius: 6px;
   }
   
-  .chatbot-host-bubble img,
-  .chatbot-host-bubble iframe,
-  .chatbot-host-bubble video {
-    border-radius: var(--chatbot-border-radius);
+  .mavchat-host-bubble img,
+  .mavchat-host-bubble iframe,
+  .mavchat-host-bubble video {
+    border-radius: var(--mavchat-border-radius);
   }
   
-  .chatbot-guest-bubble {
-    color: var(--chatbot-guest-bubble-color);
+  .mavchat-guest-bubble {
+    color: var(--mavchat-guest-bubble-color);
     background-color: #3B81F6;
     border-radius: 6px;
   }
   
-  .chatbot-input {
+  .mavchat-input {
     color: #303235;
     background-color: #ffffff;
     box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.1);
-    border-radius: var(--chatbot-border-radius);
+    border-radius: var(--mavchat-border-radius);
   }
   
-  .chatbot-input-error-message {
+  .mavchat-input-error-message {
     color: #303235;
   }
   
-  .chatbot-button > .send-icon {
-    fill: var(--chatbot-button-color);
+  .mavchat-button > .send-icon {
+    fill: var(--mavchat-button-color);
   }
   
-  .chatbot-chat-view {
+  .mavchat-chat-view {
     max-width: 800px;
   }
   
@@ -238,44 +238,44 @@
   
   .upload-progress-bar {
     background-color: #0042da;
-    border-radius: var(--chatbot-border-radius);
+    border-radius: var(--mavchat-border-radius);
   }
   
   .total-files-indicator {
     background-color: #0042da;
-    color: var(--chatbot-button-color);
+    color: var(--mavchat-button-color);
     font-size: 10px;
   }
   
-  .chatbot-upload-input {
+  .mavchat-upload-input {
     transition: border-color 100ms ease-out;
   }
   
-  .chatbot-upload-input.dragging-over {
+  .mavchat-upload-input.dragging-over {
     border-color: #0042da;
   }
   
   .secondary-button {
     background-color: #f7f8ff;
-    color: var(--chatbot-host-bubble-color);
-    border-radius: var(--chatbot-border-radius);
+    color: var(--mavchat-host-bubble-color);
+    border-radius: var(--mavchat-border-radius);
   }
   
-  .chatbot-country-select {
+  .mavchat-country-select {
     color: #303235;
     background-color: #ffffff;
-    border-radius: var(--chatbot-border-radius);
+    border-radius: var(--mavchat-border-radius);
   }
   
-  .chatbot-date-input {
+  .mavchat-date-input {
     color-scheme: light;
     color: #303235;
     background-color: #ffffff;
-    border-radius: var(--chatbot-border-radius);
+    border-radius: var(--mavchat-border-radius);
   }
   
-  .chatbot-popup-blocked-toast {
-    border-radius: var(--chatbot-border-radius);
+  .mavchat-popup-blocked-toast {
+    border-radius: var(--mavchat-border-radius);
   }
 
   

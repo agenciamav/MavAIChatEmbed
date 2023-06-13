@@ -31,7 +31,7 @@ export const GuestBubble = (props: Props) => {
     >
       <span
         ref={userMessageEl}
-        class="px-4 py-2 mr-2 whitespace-pre-wrap max-w-full chatbot-guest-bubble"
+        class="px-4 py-2 mr-2 whitespace-pre-wrap max-w-full mavchat-guest-bubble"
         data-testid="guest-bubble"
         style={{ "background-color": props.backgroundColor ?? defaultBackgroundColor, color: props.textColor ?? defaultTextColor, 'border-radius': '6px' }}
       />
