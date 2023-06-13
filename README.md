@@ -2,7 +2,7 @@
 
 # Mav Chat
 
-Javascript library to display flowise chatbot on your website
+Javascript library to display agenciamav chatbot on your website
 
 ![Agência Mav](https://github.com/agenciamav/MavChat/blob/main/images/ChatEmbed.gif?raw=true)
 
@@ -30,8 +30,8 @@ yarn build
 
 ```html
 <script type="module">
-  import Chatbot from "https://cdn.jsdelivr.net/npm/mavchat/dist/web.js";
-  Chatbot.init({
+  import MavChat from "https://cdn.jsdelivr.net/npm/mavchat/dist/web.js";
+  MavChat.init({
     chatflowid: "<chatflowid>",
     apiHost: "http://localhost:3000",
   });
@@ -75,8 +75,8 @@ You can also customize chatbot with different configuration
 
 ```html
 <script type="module">
-  import Chatbot from "https://cdn.jsdelivr.net/npm/mavchat/dist/web.js";
-  Chatbot.init({
+  import MavChat from "https://cdn.jsdelivr.net/npm/mavchat/dist/web.js";
+  MavChat.init({
     chatflowid: "91e9c803-5169-4db9-8207-3c0915d71c5f",
     apiHost: "http://localhost:3000",
     chatflowConfig: {
@@ -127,4 +127,4 @@ You can also customize chatbot with different configuration
 
 ## License
 
-Source code in this repository is made available under the [MIT License](https://github.com/agenciamav/Agência Mav/blob/master/LICENSE.md).
+Source code in this repository is made available under the [MIT License](https://github.com/agenciamav/MavChat/blob/main/LICENSE.md).

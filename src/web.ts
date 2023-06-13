@@ -1,10 +1,10 @@
 import { registerWebComponents } from './register'
-import { parseChatbot, injectChatbotInWindow } from './window'
+import { parseMavChat, injectMavChatInWindow } from './window'
 
 registerWebComponents()
 
-const chatbot = parseChatbot()
+const chatbot = parseMavChat()
 
-injectChatbotInWindow(chatbot)
+injectMavChatInWindow(chatbot)
 
 export default chatbot
