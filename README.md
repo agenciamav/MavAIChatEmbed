@@ -28,7 +28,7 @@ yarn build
 
 ```html
 <script type="module">
-  import MavChat from "https://cdn.jsdelivr.net/npm/mavchat/dist/web.js";
+  import MavChat from "https://cdn.jsdelivr.net/npm/mav-chat-embed/dist/web.js";
   MavChat.init({
     chatflowid: "<chatflowid>",
     apiHost: "http://localhost:3000",
@@ -42,7 +42,7 @@ You can also customize chatbot with different configuration
 
 ```html
 <script type="module">
-  import MavChat from "https://cdn.jsdelivr.net/npm/mavchat/dist/web.js";
+  import MavChat from "https://cdn.jsdelivr.net/npm/mav-chat-embed/dist/web.js";
   MavChat.init({
     chatflowid: "91e9c803-5169-4db9-8207-3c0915d71c5f",
     apiHost: "http://localhost:3000",
