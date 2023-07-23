@@ -5,5 +5,5 @@ import { Full } from './features/full'
 
 export const registerWebComponents = () => {
     if (typeof window === 'undefined') return
-    customElement('mavchat', defaultBotProps, Bubble)
+    customElement('mav-chat', defaultBotProps, Bubble)
 }
