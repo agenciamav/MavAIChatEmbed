@@ -14,7 +14,7 @@ export const initFull = (props: BotProps & { id?: string }) => {
 }
 
 export const init = (props: BotProps) => {
-    const element = document.createElement('mav-chat')
+    const element = document.createElement('mavchat')
     Object.assign(element, props)
     document.body.appendChild(element)
 }
